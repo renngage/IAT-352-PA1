@@ -1,5 +1,5 @@
 IAT 352 PA1
 
-Testing gitkraken to Girhub upload - Test 1.
+Testing gitkraken to Github upload - Test 1.
 
-Testing Contribution
+Testing Contribution - Succesfully contributed !!
