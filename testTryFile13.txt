@@ -1,0 +1,4 @@
+Name: pranav
+Email: pranavs@sfu.ca
+Password: hi
+Country: Canada
