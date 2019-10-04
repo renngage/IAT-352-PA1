@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Products page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="productDetailpage.css">
+
+
+    <style>
+        .w3-sidebar a {
+            font-family: "Roboto", sans-serif
+        }
+
+        body, h1, h2, h3, h4, h5, h6, .w3-wide {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+
+<body class="w3-content" style="max-width:1200px">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+    <div class="w3-container w3-display-container w3-padding-16">
+        <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+        <h3 class="w3-wide"><b>LOGO</b></h3>
+    </div>
+    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+        <a href="homepage.html" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">Forums</a>
+        <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+            Store <i class="fa fa-caret-down"></i>
+        </a>
+        <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+            <a href="#" class="w3-bar-item w3-button w3-light-grey">All
+                PC Games</a>
+            <a href="#" class="w3-bar-item w3-button">Microsoft Xbox</a>
+            <a href="#" class="w3-bar-item w3-button">Sony PlayStation</a>
+            <a href="#" class="w3-bar-item w3-button">Nintendo</a>
+        </div>
+
+        <div class="w3-display-bottomleft w3-center w3-padding-64">
+            <a href="login.php" class="w3-bar-item w3-button">Sign in</a>
+            <a href="registerForm.php" class="w3-bar-item w3-button">Register</a>
+        </div>
+    </div>
+</nav>
+
+<div class="outline">
+    <img src="img/witcher%203.jpg">
+    <div class="title">
+        <h1>Witcher 3 The Wild Hunt</h1>
+        <h1 class="price">64.99$</h1>
+    </div>
+    <div class="description">
+        <p>
+            Become a professional monster slayer and embark on an adventure of epic proportions!
+            Upon its release, The Witcher 3: Wild Hunt became an instant classic, claiming over
+            250 Game of the Year awards. Now you can enjoy this huge, over 100-hour long, open-world
+            adventure along with both its story-driven expansions worth an extra 50 hours of gameplay.
+            This edition includes all additional content - new weapons, armor, companion outfits, new game mode and side quests.
+
+            Play as a Highly Trained Monster Slayer for Hire
+            Trained from early childhood and mutated to gain superhuman skills, strength and reflexes,
+            witchers are a distrusted counterbalance to the monster-infested world in which they live.
+        </p>
+    </div>
+    <button> Add to cart</button>
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+<script>
+    // Accordion
+    function myAccFunc() {
+        var x = document.getElementById("demoAcc");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</html>

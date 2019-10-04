@@ -10,8 +10,13 @@
 
 
 <style>
-    .w3-sidebar a {font-family: "Roboto", sans-serif}
-    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    .w3-sidebar a {
+        font-family: "Roboto", sans-serif
+    }
+
+    body, h1, h2, h3, h4, h5, h6, .w3-wide {
+        font-family: "Montserrat", sans-serif;
+    }
 </style>
 
 
@@ -61,12 +66,12 @@
     <!-- Image header -->
     <div class="w3-display-container w3-container">
         <img src="img/transistor%20home%20page" alt="Transistor" style="width:100%">
-        <div class="w3-display-topleft w3-text-white" style="padding:280px 48px">
+        <div class="w3-display-topleft w3-text-white" style="margin: 280px 0 0 20px">
             <h1 class="w3-jumbo w3-hide-small">New Releases</h1>
             <h1 class="w3-hide-large w3-hide-medium">New releases</h1>
             <h1 class="w3-hide-small">Game of the year edition</h1>
             <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
-<!--            //shop now link change its destination after.-->
+            <!--            //shop now link change its destination after.-->
         </div>
     </div>
 
@@ -74,12 +79,22 @@
     <div class="w3-row" style="margin-top: 20px">
         <div class="w3-col l3 s6">
             <div class="w3-container">
-                <img src="img/witcher%203.jpg" style="width:100%">
+                <div class="w3-display-container">
+                    <img src="img/witcher%203.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-display-hover">
+                        <button class="w3-button w3-black" onclick="window.location.href ='productDetailpage.html'">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div>
                 <p>Witcher 3<br><b>$64.99</b></p>
             </div>
             <div class="w3-container">
-                <img src="img/bloodborne.jpg" style="width:100%">
-                <p>Bloodborne<br><b>$59.99</b></p>
+                <div class="w3-display-container">
+                    <img src="img/bloodborne.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-display-hover">
+                        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                    <p>Bloodborne<br><b>$59.99</b></p>
+                </div>
             </div>
         </div>
 
