@@ -4,4 +4,79 @@ Password:
 Country: Name: 
 Email: 
 Password: 
+<<<<<<< HEAD
+=======
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
+Country: Name: Pranav
+Email: 
+Password: hi
+Country: Name: 
+Email: 
+Password: 
+Country: Name: pranav
+Email: 
+Password: hi
+Country: Name: pranav
+Email: 
+Password: hi
+Country: Name: pranav
+Email: 
+Password: hi
+Country: Name: 
+Email: 
+Password: 
+Country: Name: pranav
+Email: 
+Password: hi
+Country: Name: pranav
+Email: 
+Password: hi
+Country: Name: pranav
+Email: 
+Password: hi
+>>>>>>> master
 Country: 
