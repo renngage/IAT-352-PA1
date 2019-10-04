@@ -79,4 +79,10 @@ Country: Name: pranav
 Email: 
 Password: hi
 >>>>>>> master
+Country: Name: 
+Email: 
+Password: 
+Country: Name: 
+Email: 
+Password: 
 Country: 
