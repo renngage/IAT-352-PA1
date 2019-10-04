@@ -25,13 +25,13 @@
         <h3 class="w3-wide"><b>LOGO</b></h3>
     </div>
     <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-        <a href="#" class="w3-bar-item w3-button">Profile</a>
+        <a href="homepage.html" class="w3-bar-item w3-button">Home</a>
         <a href="#" class="w3-bar-item w3-button">Forums</a>
         <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
             Store <i class="fa fa-caret-down"></i>
         </a>
         <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-            <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All PC Games</a>
+            <a href="productsListPage.html" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>All PC Games</a>
             <a href="#" class="w3-bar-item w3-button">Microsoft Xbox</a>
             <a href="#" class="w3-bar-item w3-button">Sony PlayStation</a>
             <a href="#" class="w3-bar-item w3-button">Nintendo</a>
@@ -39,7 +39,7 @@
         <a href="#" class="w3-bar-item w3-button">Shop</a>
 
 <!--        make a button class and make these two into buttons-->
-        <div >
+        <div class="w3-display-bottomleft w3-center w3-padding-64">
             <a href="login.php" class="w3-bar-item w3-button">Sign in</a>
             <a href="registerForm.php" class="w3-bar-item w3-button">Register</a>
         </div>
@@ -66,5 +66,18 @@
 		
 </form>
 </div>
+
+
+<script>
+    // Accordion
+    function myAccFunc() {
+        var x = document.getElementById("demoAcc");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 </body>
 </html>
